@@ -1,6 +1,59 @@
 # Tutorial on basic neural network concepts
 
-## Getting-Started
+- [Download the repository](#download-the-repository)
+- [Getting started](#getting-started)
+- [Running the tutorial](#running-the-tutorial)
+
+## Download the repository
+
+### Get the repository with Git
+
+You will need to have Git previously installed in your computer.
+To check if you have it installed, open your terminal and type:
+
+``` bash
+git --version
+```
+
+#### Git installation in mac
+
+``` bash
+brew update
+brew install git
+```
+
+#### Git installation in linux
+
+In Ubuntu/Debian
+
+``` bash
+sudo apt install git
+```
+
+In CentOS
+
+``` bash
+sudo yum install git
+```
+
+Once you have Git installed open your terminal, go to your desired directory, and type:
+
+``` bash
+git clone https://github.com/machine-learning-tutorial/bayesian-optimization.git
+cd bayesian-optimization
+```
+
+### Get the repository with direct download
+
+Open your terminal, go to your desired directory, and type:
+
+``` bash
+wget https://github.com/machine-learning-tutorial/bayesian-optimization/archive/refs/heads/main.zip
+unzip main.zip
+cd bayesian-optimization
+```
+
+## Getting started
 
 You need to install the dependencies before running the notebooks.
 
