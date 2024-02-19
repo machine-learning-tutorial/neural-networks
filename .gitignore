@@ -138,4 +138,5 @@ dmypy.json
 # model
 wandb/
 models/
-# slurm_log/
+# data
+data/
