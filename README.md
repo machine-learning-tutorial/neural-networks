@@ -1,8 +1,14 @@
 # Tutorial on basic neural network concepts
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 - [Download the repository](#download-the-repository)
 - [Getting started](#getting-started)
 - [Running the tutorial](#running-the-tutorial)
+
+## Material for this tutorial
+- The theoretical lecture can be found here
+- The tutorial in slide form is here
+
 
 ## Download the repository
 
@@ -108,3 +114,10 @@ The first part of the tutorial is in `1-neural_networks.ipynb`.
 ### Part 2 MNIST Training
 
 The second part of the tutorial is in `2-mnist_training.ipynb`
+
+## Citing the tutorial
+This tutorial is registered [Zenodo](https://zenodo.org/), which means that there is a DOI for each code release. 
+Please use this DOI when citing this code:
+
+## Disclaimer
+The content of this repository was developed by the [AI4Accelerators team](https://www.ibpt.kit.edu/AI4Accelerators.php) at the [Institute of Beam Physics and Technology (IBPT)](https://www.ibpt.kit.edu/), [Karlsruhe Institute of Technology](https://www.kit.edu/english/).
