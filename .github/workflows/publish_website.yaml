@@ -25,7 +25,6 @@ jobs:
             - name: Export the notebook and Add files
               run: |
                 mkdir temp
-                cp -r img/ temp/img/
                 jupyter nbconvert 1-neural_networks.ipynb --to slides
                 mv 1-neural_networks.slides.html temp/1-neural-networks.html
                 jupyter nbconvert 2-mnist_training.ipynb --to slides
