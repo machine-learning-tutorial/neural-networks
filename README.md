@@ -24,14 +24,14 @@ To check if you have it installed, open your terminal and type:
 git --version
 ```
 
-#### Git installation in mac
+#### Git installation in MacOS
 
 ``` bash
 brew update
 brew install git
 ```
 
-#### Git installation in linux
+#### Git installation in Linux
 
 In Ubuntu/Debian
 
@@ -76,11 +76,11 @@ If you don't have conda installed already and want to use conda for environment 
 - Run the following commands:
 
 ```bash
-jupyter contrib nbextension install --user
-jupyter nbextension enable varInspector/main
+python -m jupyter contrib nbextension install --user
+python -m jupyter nbextension enable varInspector/main
 ```
 
-- After the tutorial you can remove your environment with `conda remove -n nn-tutorial --all`
+- **After the tutorial** you can remove your environment with `conda remove -n nn-tutorial --all`
 
 ### Using venv only
 
@@ -98,22 +98,20 @@ Then, install the packages with pip within the activated environment
 
 ```bash
 python -m pip install -r requirements.txt
-jupyter contrib nbextension install --user
-jupyter nbextension enable varInspector/main
+python -m jupyter contrib nbextension install --user
+python -m jupyter nbextension enable varInspector/main
 ```
 
 Afterwards, you should be able to run the provided notebooks.
-
-
 
 ## Running the tutorial
 
 After installing the package
 
-You can start the jupyterlab in the terminal, and it will start a browser automatically
+You can start the jupyter notebook in the terminal, and it will start a browser automatically
 
 ```bash
-jupyter lab
+python -m jupyter notebook
 ```
 
 Alternatively, you can use supported Editor to run the jupyter notebooks, e.g. with VS Code.
