@@ -48,8 +48,8 @@ sudo yum install git
 Once you have Git installed open your terminal, go to your desired directory, and type:
 
 ``` bash
-git clone https://github.com/machine-learning-tutorial/bayesian-optimization.git
-cd bayesian-optimization
+git clone https://github.com/machine-learning-tutorial/neural-networks
+cd neural-networks
 ```
 
 ### Get the repository with direct download
@@ -57,9 +57,9 @@ cd bayesian-optimization
 Open your terminal, go to your desired directory, and type:
 
 ``` bash
-wget https://github.com/machine-learning-tutorial/bayesian-optimization/archive/refs/heads/main.zip
+wget https://github.com/machine-learning-tutorial/neural_networks/archive/refs/heads/main.zip
 unzip main.zip
-cd bayesian-optimization
+cd neural-networks
 ```
 
 ## Getting started
@@ -73,6 +73,14 @@ If you don't have conda installed already and want to use conda for environment 
 - Create a conda env with `conda create -n nn-tutorial python=3.10`
 - Activate the environment with `conda activate nn-tutorial`
 - Install the required packages via `pip install -r requirements.txt`.
+- Run the following commands:
+
+```bash
+jupyter contrib nbextension install --user
+jupyter nbextension enable varInspector/main
+```
+
+- After the tutorial you can remove your environment with `conda remove -n nn-tutorial --all`
 
 ### Using venv only
 
@@ -90,9 +98,13 @@ Then, install the packages with pip within the activated environment
 
 ```bash
 python -m pip install -r requirements.txt
+jupyter contrib nbextension install --user
+jupyter nbextension enable varInspector/main
 ```
 
 Afterwards, you should be able to run the provided notebooks.
+
+
 
 ## Running the tutorial
 
