@@ -5,7 +5,6 @@ scikit-learn
 scikit-optimize
 torch
 torchvision
-# jupyterlab
 notebook==6.4.12
 jupyter_contrib_nbextensions
 RISE
