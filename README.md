@@ -8,7 +8,10 @@
 
 ## Material for this tutorial
 
-- The theoretical lecture can be found here
+- The theoretical lecture can be found here:
+  - [Part 1: Introduction to neural networks](https://github.com/machine-learning-tutorial/neural-networks/blob/main/slides/nns-part1.pdf)
+  - [Part 2: Introduction to neural networks](https://github.com/machine-learning-tutorial/neural-networks/blob/main/slides/nns-part2.pdf)
+
 - The tutorial in slide form is here
   - [Part 1: Neural network basics](https://machine-learning-tutorial.github.io/neural-networks/1-neural-networks.html#/)
   - [Part 2: Training on MNIST dataset](https://machine-learning-tutorial.github.io/neural-networks/2-mnist-training.html#/)
