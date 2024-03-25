@@ -138,14 +138,14 @@ This tutorial is registered [Zenodo](https://zenodo.org/).
 Please use this DOI when citing this code:
 
 ```bibtex
-@software{andrea_santamaria_garcia_2024_10792273,
-  author       = {Andrea Santamaria Garcia and
-                  Chenran Xu},
-  title        = {{machine-learning-tutorial/neural-networks: v1.0.0}},
+@software{santamaria_garcia_2024_10792273,
+  author       = {Santamaria Garcia, Andrea and
+                  Xu, Chenran},
+  title        = {Tutorial on basic neural network concepts},
   month        = 03,
   year         = 2024,
   publisher    = {Zenodo},
-  version      = {v1.0.0},
+  version      = {v1.0.1},
   doi          = {10.5281/zenodo.10792273},
   url          = {https://doi.org/10.5281/zenodo.10792273}
 }
