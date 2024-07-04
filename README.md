@@ -1,5 +1,6 @@
 # Tutorial on basic neural network concepts
 
+[![DOI](https://zenodo.org/badge/759758400.svg)](https://zenodo.org/doi/10.5281/zenodo.10792272)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 - [Download the repository](#download-the-repository)
@@ -133,8 +134,22 @@ The second part of the tutorial is in `2-mnist_training.ipynb`
 
 ## Citing the tutorial
 
-This tutorial is registered [Zenodo](https://zenodo.org/), which means that there is a DOI for each code release.
+This tutorial is registered [Zenodo](https://zenodo.org/).
 Please use this DOI when citing this code:
+
+```bibtex
+@software{santamaria_garcia_2024_10792273,
+  author       = {Santamaria Garcia, Andrea and
+                  Xu, Chenran},
+  title        = {Tutorial on basic neural network concepts},
+  month        = 03,
+  year         = 2024,
+  publisher    = {Zenodo},
+  version      = {v1.0.1},
+  doi          = {10.5281/zenodo.10792273},
+  url          = {https://doi.org/10.5281/zenodo.10792273}
+}
+```
 
 ## Disclaimer
 
